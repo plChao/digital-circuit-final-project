@@ -20,3 +20,14 @@
 |type 3|v3|Wallace tree|Carry select|
 |type 4|v4|Wallace tree|Ripple carry|
 |type 5|v5|Combinational|Ripple carry|
+## Time comparison
+![image](https://user-images.githubusercontent.com/32629259/193569489-ae2e3afd-4408-4565-b9aa-265391f43019.png)
+## Area comparison
+![image](https://user-images.githubusercontent.com/32629259/193569661-adc69f62-a014-479e-9527-51e4166a693e.png)
+## Circuit stimulation delay comparison 
+![image](https://user-images.githubusercontent.com/32629259/193569958-546db30f-e09c-4158-bd8a-d57ad4a9ce72.png)
+## 結論
+* 使用 Wallace Tree 的 delay 與 power 皆較小，但 area 較大 ( 比較 type 4 與 type 5 )
+* 使用 Carry Select Adder 或 Carry Ripple Adder 的 power 與 delay 皆小於 Combinational Adder ( 比較 type 1 與 type 3、type 4 )
+* 使用 Wallace Tree Multiplier 搭配 Carry Select Adder 是所有實驗組合裡面最好的 ( type 3 )
+  * 但是在 layout 上可能會有更高的 cost，這會是設計上的一個 trade-off
