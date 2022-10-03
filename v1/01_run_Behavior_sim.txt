@@ -1,0 +1,1 @@
+irun Testbed_MAC.v -define RTL -debug -notimingchecks

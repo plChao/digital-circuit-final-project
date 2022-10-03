@@ -1,0 +1,2 @@
+irun  Testbed_MAC.v -define GATE -debug -v ../../hw4/vlib/asap7sc7p5t_SIMPLE_RVT_TT_08302018.v  ../../hw4/vlib/asap7sc7p5t_SEQ_RVT_TT_08302018.v  ../../hw4/vlib/asap7sc7p5t_INVBUF_RVT_TT_08302018.v -nontcglitch
+# --> ?? is the path of corresbonding file, you need to modify the path
